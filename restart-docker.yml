@@ -5,4 +5,4 @@
   tasks:
  
   - name: Restart Docker service
-    shell: service docker restart
+    shell: sudo service docker restart
