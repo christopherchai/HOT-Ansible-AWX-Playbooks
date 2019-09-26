@@ -6,3 +6,4 @@
  
   - name: Restart Docker service
     shell: sudo service docker restart
+    shell: echo "Docker has been restarted."
