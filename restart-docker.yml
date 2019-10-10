@@ -7,3 +7,5 @@
   - name: Restart Docker service
     shell: sudo service docker restart
     shell: echo "Docker has been restarted."
+    shell: cd /home/perform/easyTravel-Docker
+    shell: docker-compose up
