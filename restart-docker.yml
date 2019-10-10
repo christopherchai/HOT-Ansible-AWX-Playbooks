@@ -6,5 +6,4 @@
  
   - name: Restart Docker service
     shell: sudo service docker restart
-    shell: cd "/home/perform/easyTravel-Docker/"
-    shell: sudo docker-compose up
+    shell: cd "/home/perform/easyTravel-Docker/" && sudo docker-compose up
